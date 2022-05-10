@@ -1,0 +1,47 @@
+.inputdiv {
+    width: 360px;
+    height: 40px;
+}
+
+.txtApp {
+    width: 360px;
+    height: 350px;
+    margin-top: 17px;
+    border: 0.5px lightslategray solid;
+
+}
+
+body {
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 45px 0 0 0;
+    font-size: 22px;
+}
+
+.deleteButton {
+    background-color: rgb(209, 50, 50);
+    width: 24px;
+    height: 23px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.deleteButton:hover {
+    background-color: blueviolet;
+
+}
+
+#input {
+    width: 270px;
+    height: 30px;
+}
+
+#button {
+    width: 70px;
+    height: 35px;
+}
