@@ -1,9 +1,8 @@
- inp.addEventListener("change",function () {
-    for (let i = 0; i < this.value.length; i++) {
-        if (!isNaN(this.value[i])) {
-             this.nextElementSibling.classList.add("d-block")
-               return;
-           }
-       }
-     this.nextElementSibling.classList.remove("d-block")
+let input = document.getElementById('inp')
+input.addEventListener("keyup", function  run() {
+  for (let index = 0; index < this.value.length; index++) {
+    if (!isNaN(this.value[index])) {
+      inp.value = this.value.slice(0, -1);
+    }
+  }
 });
