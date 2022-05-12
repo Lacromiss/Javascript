@@ -1,0 +1,11 @@
+.kubb{
+    background-color: aliceblue;
+    width: 600px;height: 600px;border: 1pc black solid;
+}
+.gameKub{
+    background-color: black;
+    width: 60px;height: 60px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
