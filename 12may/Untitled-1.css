@@ -1,0 +1,48 @@
+ul.grid {
+    background: rgb(226, 86, 86);
+    width: 350px;
+    border: 1px solid;
+}
+
+ul.grid li {
+    list-style: none;
+    display: inline-block;
+    background: #888;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    margin: 6px;
+    border: 1px solid;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.collection {
+    min-height: 130px;
+    max-width: 450px;
+    background: rgb(69, 37, 164);
+    float: left;
+}
+
+.draggablediv {
+    float: right;
+}
+
+.draggable {
+    cursor: pointer;
+}
+
+.icon-remove {
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.heading {
+    background: #999;
+    color: brown;
+    float: right;
+
+}
